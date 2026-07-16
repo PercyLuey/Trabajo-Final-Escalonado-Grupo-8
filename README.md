@@ -20,7 +20,6 @@ Desarrollar un metamodelo académico para estimar rápidamente respuestas sísmi
 - `reports/T1-Grupo 8.docx`: informe entregado en T1.
 - `reports/Informe_T2_Grupo_8.docx`: informe consolidado hasta T2.
 - `reports/PLAN_ALGORITMICO_T2.md`: modelos, validación y métricas.
-- `reports/SPEECH_T2.md`: guion de exposición de cinco minutos.
 
 ## Ejecución
 
