@@ -1,0 +1,27 @@
+﻿,tipo,nulos,nulos_pct,unicos
+Seismic Zone,str,0,0.0,4
+PGA (m/s²),float64,0,0.0,1000
+PGV (m/s),float64,0,0.0,1000
+PGD (m),float64,0,0.0,1000
+Spectral Acceleration (g),float64,0,0.0,1000
+Soil Type,str,0,0.0,4
+Site Amplification Factor,float64,0,0.0,1000
+Historical Earthquake Magnitude (Mw),float64,0,0.0,1000
+Fault Distance (km),float64,0,0.0,1000
+Seismic Wave Frequency (Hz),float64,0,0.0,1000
+Building Height (m),float64,0,0.0,1000
+Number of Stories,int64,0,0.0,49
+Structural Material,str,0,0.0,4
+Foundation Type,str,0,0.0,4
+Natural Frequency (Hz),float64,0,0.0,1000
+Damping Ratio (%),float64,0,0.0,1000
+Mass of Structure (kg),float64,0,0.0,1000
+Axial Stiffness (kN/m),float64,0,0.0,1000
+Bending Stiffness (kN·m²),float64,0,0.0,1000
+Lateral Load Resisting System,str,0,0.0,3
+Predicted Max Inter-Story Drift Ratio (%),float64,0,0.0,1000
+Predicted Max Roof Displacement (m),float64,0,0.0,1000
+Predicted Base Shear Force (kN),float64,0,0.0,1000
+Predicted Structural Acceleration (m/s²),float64,0,0.0,1000
+Predicted Damage Index (0–1 Scale),float64,0,0.0,1000
+Predicted Collapse Probability (%),float64,0,0.0,1000

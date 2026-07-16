@@ -1,0 +1,84 @@
+{
+  "filas": 1000,
+  "columnas": 26,
+  "numericas": 21,
+  "categoricas": 5,
+  "nulos": 0,
+  "duplicados": 0,
+  "memoria_mb": 0.427,
+  "variables_categoricas": {
+    "Seismic Zone": [
+      "High",
+      "Low",
+      "Moderate",
+      "Very High"
+    ],
+    "Soil Type": [
+      "Clay",
+      "Rock",
+      "Sand",
+      "Soft Soil"
+    ],
+    "Structural Material": [
+      "Composite",
+      "Concrete",
+      "Masonry",
+      "Steel"
+    ],
+    "Foundation Type": [
+      "Deep",
+      "Pile",
+      "Raft",
+      "Shallow"
+    ],
+    "Lateral Load Resisting System": [
+      "Braced Frame",
+      "Moment Frame",
+      "Shear Wall"
+    ]
+  },
+  "correlaciones_fuertes_por_objetivo": {
+    "Predicted Max Inter-Story Drift Ratio (%)": [
+      "PGA (m/s²)",
+      "Fault Distance (km)",
+      "Spectral Acceleration (g)",
+      "Building Height (m)",
+      "PGV (m/s)"
+    ],
+    "Predicted Max Roof Displacement (m)": [
+      "PGA (m/s²)",
+      "PGD (m)",
+      "Spectral Acceleration (g)",
+      "Seismic Wave Frequency (Hz)",
+      "Number of Stories"
+    ],
+    "Predicted Base Shear Force (kN)": [
+      "Seismic Wave Frequency (Hz)",
+      "Fault Distance (km)",
+      "PGD (m)",
+      "Damping Ratio (%)",
+      "Bending Stiffness (kN·m²)"
+    ],
+    "Predicted Structural Acceleration (m/s²)": [
+      "Natural Frequency (Hz)",
+      "Bending Stiffness (kN·m²)",
+      "Damping Ratio (%)",
+      "Seismic Wave Frequency (Hz)",
+      "PGD (m)"
+    ],
+    "Predicted Damage Index (0–1 Scale)": [
+      "Axial Stiffness (kN/m)",
+      "Seismic Wave Frequency (Hz)",
+      "Natural Frequency (Hz)",
+      "PGD (m)",
+      "Fault Distance (km)"
+    ],
+    "Predicted Collapse Probability (%)": [
+      "Axial Stiffness (kN/m)",
+      "Seismic Wave Frequency (Hz)",
+      "Natural Frequency (Hz)",
+      "PGD (m)",
+      "Fault Distance (km)"
+    ]
+  }
+}
